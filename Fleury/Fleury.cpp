@@ -47,9 +47,11 @@ int main()
 	C->connect(F);
 	D->connect(F);
 	E->connect(F);
+
 	/*E->connect(D);
 	C->connect(B);
 	I->connect(J);*/
+
 	F->connect(G);
 	F->connect(H);
 	F->connect(I);
